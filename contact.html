@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Niels z'n contact pagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <div class="titel">
+        
+    </div>
+
+    <div class="menu">
+        <a href="index.html">index</a>
+        <a href="hobbies.html">hobbies</a>
+        <a href="contact.html">contact</a>
+    </div>
+
+    <div class="contact">
+        <form>
+            <table>
+                <tr>
+                    <th id="contact" colspan="3">
+                        <h2>Vul hier uw vraag in als u mij wilt bereiken.</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Naam</th>
+                    <td><input name="naam" type="text"></td>
+                    <td rowspan="3">
+                        <textarea rows="6" cols="65" name="Opmerking">Opmerkingen...</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input name="email" type="email"></td>
+                </tr>
+                <tr>
+                    <th>Onderwerp</th>
+                    <td>
+                        <select name="onderwerp">
+                            <option value="overig">overig</option>
+                            <option value="werk">werk</option>
+                            <option value="opleiding">opleiding</option>
+                            <option value="hobby’s">hobby’s</option>
+                            <option value="info">info</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th id="contact" colspan="3">
+                        <input type="submit">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

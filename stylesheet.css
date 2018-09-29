@@ -1,0 +1,127 @@
+* body {
+  background-image: url("plaatjes/blackwall.jpg");
+  font-family: arial, sans-serif;
+  margin: auto;
+  max-width: 800px;
+  min-width: 800px;
+  text-align: center;
+}
+
+.titel {
+  text-shadow: 2px 2px 5px black;
+
+  background-repeat: no-repeat;
+  background-size: 800px;
+  color: whitesmoke;
+  padding: 60px;
+}
+
+.menu {
+  background-image: linear-gradient(to right ,grey , black);
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-shadow: 2px 2px black;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  text-shadow: 2px 2px white;
+  background-color: lightgrey;
+  color: black;
+}
+
+.horizontaal {
+  display: flex;
+}
+
+.hobbies {
+  box-shadow: 5px 10px 12px #202020;
+  background-image: linear-gradient(-45deg, grey, black);
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.contact {
+  box-shadow: 5px 10px 12px #202020;
+  background-image: linear-gradient(-45deg, grey, black);
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.CV {
+  box-shadow: 5px 10px 12px #202020;
+  background-image: linear-gradient(45deg, grey, black);
+  flex: 560px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+
+.Voorstellen {
+  box-shadow: 5px 10px 12px #202020;
+  background-image: linear-gradient(45deg, grey, black);
+  flex: 240px;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+table {
+  background-color: darkgrey;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: right;
+  padding: 8px;
+}
+
+th#contact {
+  background-image: linear-gradient(to left, grey, black);
+  text-align: center;
+}
+
+td {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+td#plaatje {
+  margin: 0px;
+  padding: 0px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr#hover:hover {
+  background-color: rgb(47, 77, 248);
+}
+
+table#hobby {
+  background-image: linear-gradient(to left, grey, black);
+}
+
+a#zwart:link {
+  color: black;
+}
+
+a#zwart:visited {
+  color: black;
+}
+
+a#zwart:hover {
+  color: grey;
+}
